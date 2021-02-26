@@ -968,6 +968,7 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				NEW_SETTING = "";
 				PRODUCT_MODULE_NAME = AFNetworking;
 				PRODUCT_NAME = AFNetworking;
 				SDKROOT = iphoneos;
@@ -1280,6 +1281,7 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				NEW_SETTING = "";
 				PRODUCT_MODULE_NAME = AFNetworking;
 				PRODUCT_NAME = AFNetworking;
 				SDKROOT = iphoneos;
