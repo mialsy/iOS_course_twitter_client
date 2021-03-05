@@ -47,8 +47,7 @@ class TweetCellTableViewCell: UITableViewCell {
     }
     
     func setRetweeted(_ isRetweeted:Bool) {
-        retweeted = isRetweeted
-        if (retweeted) {
+        if (isRetweeted) {
             retweetButton.setImage(UIImage(named: "retweet-icon-green"), for: UIControl.State.normal)
             retweetButton.isEnabled = false
         } else {
@@ -59,7 +58,7 @@ class TweetCellTableViewCell: UITableViewCell {
     
     @IBAction func onRetweet(_ sender: Any) {
         TwitterAPICaller.client?.postRetweet(tweetId: tweetId, success: {
-            self.setFavorited(true)
+            self.setRetweeted(true)
         }, failure: { (error) in
             print("Retweet did not succceed: \(error)")
         })
