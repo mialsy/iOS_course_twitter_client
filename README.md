@@ -23,7 +23,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/mialsy/iOS_course_twitter_client/blob/master/twitter_walkthrough_2.gif' title='Video Walkthrough' width='400px' alt='Video Walkthrough, let me know if this link breaks' />
+<img src='https://github.com/mialsy/iOS_course_twitter_client/blob/master/twitter_walthhrough_2.gif' title='Video Walkthrough' width='400px' alt='Video Walkthrough, let me know if this link breaks' />
 
 
 # Twitter - Part I
